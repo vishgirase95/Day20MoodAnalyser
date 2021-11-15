@@ -1,0 +1,14 @@
+D:\bridgelabz\Day20MoodAnalyserProblem\MoodAnalyser\MoodAnalyser\bin\Debug\netcoreapp3.1\MoodAnalyser.exe
+D:\bridgelabz\Day20MoodAnalyserProblem\MoodAnalyser\MoodAnalyser\bin\Debug\netcoreapp3.1\MoodAnalyser.deps.json
+D:\bridgelabz\Day20MoodAnalyserProblem\MoodAnalyser\MoodAnalyser\bin\Debug\netcoreapp3.1\MoodAnalyser.runtimeconfig.json
+D:\bridgelabz\Day20MoodAnalyserProblem\MoodAnalyser\MoodAnalyser\bin\Debug\netcoreapp3.1\MoodAnalyser.runtimeconfig.dev.json
+D:\bridgelabz\Day20MoodAnalyserProblem\MoodAnalyser\MoodAnalyser\bin\Debug\netcoreapp3.1\MoodAnalyser.dll
+D:\bridgelabz\Day20MoodAnalyserProblem\MoodAnalyser\MoodAnalyser\bin\Debug\netcoreapp3.1\MoodAnalyser.pdb
+D:\bridgelabz\Day20MoodAnalyserProblem\MoodAnalyser\MoodAnalyser\obj\Debug\netcoreapp3.1\MoodAnalyser.csproj.AssemblyReference.cache
+D:\bridgelabz\Day20MoodAnalyserProblem\MoodAnalyser\MoodAnalyser\obj\Debug\netcoreapp3.1\MoodAnalyser.GeneratedMSBuildEditorConfig.editorconfig
+D:\bridgelabz\Day20MoodAnalyserProblem\MoodAnalyser\MoodAnalyser\obj\Debug\netcoreapp3.1\MoodAnalyser.AssemblyInfoInputs.cache
+D:\bridgelabz\Day20MoodAnalyserProblem\MoodAnalyser\MoodAnalyser\obj\Debug\netcoreapp3.1\MoodAnalyser.AssemblyInfo.cs
+D:\bridgelabz\Day20MoodAnalyserProblem\MoodAnalyser\MoodAnalyser\obj\Debug\netcoreapp3.1\MoodAnalyser.csproj.CoreCompileInputs.cache
+D:\bridgelabz\Day20MoodAnalyserProblem\MoodAnalyser\MoodAnalyser\obj\Debug\netcoreapp3.1\MoodAnalyser.dll
+D:\bridgelabz\Day20MoodAnalyserProblem\MoodAnalyser\MoodAnalyser\obj\Debug\netcoreapp3.1\MoodAnalyser.pdb
+D:\bridgelabz\Day20MoodAnalyserProblem\MoodAnalyser\MoodAnalyser\obj\Debug\netcoreapp3.1\MoodAnalyser.genruntimeconfig.cache
