@@ -18,6 +18,10 @@ namespace MoodAnalyser
 
             try
             {
+                if (this.messege.Equals(string.Empty))
+                {
+                    throw new CustomiseMoodException(CustomiseMoodException.Enumtype.Empty_Input, "Empty");
+                }
                 if (this.messege.Contains("Sad"))
                 {
                     return "Sad";
@@ -28,10 +32,11 @@ namespace MoodAnalyser
                 }
 
             }
-            catch (Exception)
+            catch (NullReferenceException)
             {
 
-                return "Happy";
+                throw new CustomiseMoodException(CustomiseMoodException.Enumtype.Empty_Input, "Null");
+
             }
             
         }
