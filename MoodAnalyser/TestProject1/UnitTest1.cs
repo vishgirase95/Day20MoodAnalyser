@@ -10,46 +10,46 @@ namespace TestProject1
         private string messege;
 
         [TestMethod]
-        public void Given_InputEmpty_ThrowEmptyOutput()
+        public void GivenEmptyMessege_WillThrowEmptyException()
         {
-          
             try
             {
                 string messege = "";
                 MoodAnalys obj = new MoodAnalys(messege);
-                string mood =obj.AnalyseMood(messege);
-              
+               
             }
-            catch (CustomiseMoodException ex)
+            catch (System.Exception)
             {
+                string expected = "Empty";
+                MoodAnalys obj = new MoodAnalys(messege);
 
-
-            Assert.AreEqual("Empty",ex.Message);
-
+                string actual = obj.AnalyseMood();
+                Assert.AreEqual(expected, actual);
             }
+            
 
         }
         [TestMethod]
-        public void Given_NullInput_through_nullOutput()
+        public void GivenNullMessege_willThroughNulloutput ()
         {
-          
             try
             {
                 string messege = null;
                 MoodAnalys obj = new MoodAnalys(messege);
-                string mood =obj.AnalyseMood(messege);
 
-              
             }
-            catch (CustomiseMoodException ex)
+            catch (System.Exception)
             {
+                string messege = null;
 
+                string expected = null;
+                MoodAnalys obj = new MoodAnalys(messege);
 
-            Assert.AreEqual("Null",ex.Message);
-
+                string actual = obj.AnalyseMood();
+                Assert.AreEqual(expected, actual);
             }
+
 
         }
-
     }
 }
