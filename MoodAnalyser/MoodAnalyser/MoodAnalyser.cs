@@ -10,10 +10,14 @@ namespace MoodAnalyser
         {
             this.messege = messege;
         }
+        public MoodAnalys()
+        {
+           
+        }
         private string messege;
 
 
-        public string AnalyseMood(string messege)
+        public string AnalyseMood()
         {
 
             try
@@ -31,7 +35,7 @@ namespace MoodAnalyser
             catch (Exception)
             {
 
-                return "Happy";
+                return "Hap";
             }
             
         }

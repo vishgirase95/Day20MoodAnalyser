@@ -13,9 +13,9 @@ namespace TestProject1
         public void TestMethod1()
         {
             string messege = null;
-            MoodAnalys obj = new MoodAnalys(messege);
-            string expected = "Happy";
-            string actual = obj.AnalyseMood(messege);
+            MoodAnalys obj = new MoodAnalys();
+            string expected = "Hap";
+            string actual = obj.AnalyseMood();
             Assert.AreEqual(expected, actual);
 
         }
